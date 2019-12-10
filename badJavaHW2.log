@@ -1,0 +1,45 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.cis4615.app:h4 >-------------------------
+[INFO] Building h4 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ h4 ---
+[INFO] Deleting /home/wolfsage/maven/h4/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ h4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wolfsage/maven/h4/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ h4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/wolfsage/maven/h4/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.094 s
+[INFO] Finished at: 2019-12-10T13:24:22-08:00
+[INFO] ------------------------------------------------------------------------
+2147483647 + 1 looks like: -2147483648
+
+Testing /home/wolfsage/maven...
+
+CustomError: Could not detect supported target files in /home/wolfsage/maven.
+Please see our documentation for supported languages and target files: https://support.snyk.io/hc/en-us/articles/360000911957-Language-support and make sure you are in the right directory.
+
+
+Testing /home/wolfsage/maven/h4...
+
+Organization:      chastest
+Package manager:   maven
+Target file:       pom.xml
+Open source:       no
+Project path:      /home/wolfsage/maven/h4
+Licenses:          enabled
+
+✓ Tested 0 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
